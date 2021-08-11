@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.lock
+/MVCManukauTech/obj/Debug/netcoreapp2.2/Razor/Views/Membership
+
+*.suo

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "CheckoutResult";
+}
+
+<h1>Checkout Result</h1>
+
+@* NV Suuccessful payment page with message and redirect to home page *@
+<script>
+    window.onload = (function () {
+        swal("Successful Payment")
+            .then(() => {                
+                window.location.replace("/home");
+            });
+        
+    })    
+</script>
